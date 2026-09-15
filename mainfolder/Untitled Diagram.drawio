@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="8Q--oC-HPyaZlz1arnIk">
-    <mxGraphModel dx="3957" dy="2984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2248" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZBENz_Aeb2zxOY5-Enjz-4" edge="1" parent="1" source="ZBENz_Aeb2zxOY5-Enjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.001;exitY=0.937;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZBENz_Aeb2zxOY5-Enjz-5">
+        <mxCell id="ZBENz_Aeb2zxOY5-Enjz-4" edge="1" parent="1" source="ZBENz_Aeb2zxOY5-Enjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.001;exitY=0.937;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" target="ZBENz_Aeb2zxOY5-Enjz-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="220" as="targetPoint" />
           </mxGeometry>
@@ -43,13 +43,16 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f9yozM8r3qcE9FdWAdKK-41" edge="1" parent="1" source="ZBENz_Aeb2zxOY5-Enjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="f9yozM8r3qcE9FdWAdKK-40">
+        <mxCell id="f9yozM8r3qcE9FdWAdKK-41" edge="1" parent="1" source="ZBENz_Aeb2zxOY5-Enjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="f9yozM8r3qcE9FdWAdKK-40" value="fk_autenticacion=pk_autenticacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XLs334iBi6ZPpF-Xsne_-3" edge="1" parent="1" source="ZBENz_Aeb2zxOY5-Enjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="XLs334iBi6ZPpF-Xsne_-1" value="fk_valorizacion=pk_valorizacion">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZBENz_Aeb2zxOY5-Enjz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=30;spacingTop=30;spacingLeft=30;" value="&lt;div&gt;&lt;font style=&quot;color: rgb(248, 206, 204);&quot;&gt;TBL VALORIZACION&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(248, 206, 204);&quot;&gt;pk_valorizacion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(248, 206, 204);&quot;&gt;rut_titular&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(248, 206, 204);&quot;&gt;nombre_titular&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(248, 206, 204);&quot;&gt;fecha_valorizacion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(248, 206, 204);&quot;&gt;fecha_emision&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(248, 206, 204);&quot;&gt;fecha_anulacion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 217, 102);&quot;&gt;fk_liquidacion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;fk_estado_valorizacion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(158, 181, 139);&quot;&gt;fk_cajero&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(103, 171, 159);&quot;&gt;fk_beneficiario&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 204, 153);&quot;&gt;fk_folio_bono&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(153, 255, 153);&quot;&gt;fk_canal_venta&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;fk_autenticacion&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="630" width="280" x="50" y="-170" as="geometry" />
         </mxCell>
-        <mxCell id="ZBENz_Aeb2zxOY5-Enjz-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Tabla utilizada para reporte generar &lt;i&gt;reporte resumen bonos&lt;/i&gt;" vertex="1">
+        <mxCell id="ZBENz_Aeb2zxOY5-Enjz-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#990000;" value="Tabla utilizada para reporte generar &lt;i&gt;reporte resumen bonos&lt;/i&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="-240" y="460" as="geometry" />
         </mxCell>
         <mxCell id="f9yozM8r3qcE9FdWAdKK-20" edge="1" parent="1" source="ZBENz_Aeb2zxOY5-Enjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.988;exitY=0.183;exitDx=0;exitDy=0;exitPerimeter=0;" target="f9yozM8r3qcE9FdWAdKK-4" value="fk_cajero=pk_cajero">
@@ -151,7 +154,7 @@
           <mxGeometry height="140" width="240" x="1780" y="-240" as="geometry" />
         </mxCell>
         <mxCell id="f9yozM8r3qcE9FdWAdKK-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=30;spacingTop=30;spacingLeft=30;fontColor=#67AB9F;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 255);&quot;&gt;TBL AUTENTICACION&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 255);&quot;&gt;pk_autenticacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 255);&quot;&gt;codigo_autenticacon&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 255);&quot;&gt;autenticado&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="240" x="-300" y="210" as="geometry" />
+          <mxGeometry height="140" width="240" x="-370" y="210" as="geometry" />
         </mxCell>
         <mxCell id="f9yozM8r3qcE9FdWAdKK-45" edge="1" parent="1" source="f9yozM8r3qcE9FdWAdKK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="f9yozM8r3qcE9FdWAdKK-44" value="fk_pago=pk_pago">
           <mxGeometry relative="1" as="geometry" />
@@ -167,6 +170,34 @@
         </mxCell>
         <mxCell id="f9yozM8r3qcE9FdWAdKK-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=30;spacingTop=30;spacingLeft=30;fontColor=#00FF80;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(153, 51, 255);&quot;&gt;TBL TIPO PAGO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(153, 51, 255);&quot;&gt;pk_tipo_pago&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(153, 51, 255);&quot;&gt;descripcion&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="210" x="1960" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XLs334iBi6ZPpF-Xsne_-5" edge="1" parent="1" source="XLs334iBi6ZPpF-Xsne_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XLs334iBi6ZPpF-Xsne_-4" value="fk_validacion=pk_validacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XLs334iBi6ZPpF-Xsne_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=30;spacingTop=30;spacingLeft=30;fontColor=#67AB9F;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(204, 102, 0);&quot;&gt;TBL VALIDACION BONOS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(204, 102, 0);&quot;&gt;pk_validacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(248, 206, 204);&quot;&gt;fk_valorizacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(153, 153, 255);&quot;&gt;fk_motivo_validacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(204, 102, 0);&quot;&gt;estado_validacion&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="240" x="-410" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="XLs334iBi6ZPpF-Xsne_-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=30;spacingTop=30;spacingLeft=30;fontColor=#67AB9F;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(153, 153, 255);&quot;&gt;TBL MOTIVO VALIDACION&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(153, 153, 255);&quot;&gt;pk_validacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(153, 153, 255);&quot;&gt;descripcion&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="200" x="-800" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="XLs334iBi6ZPpF-Xsne_-6" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;" target="XLs334iBi6ZPpF-Xsne_-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-230" y="10" />
+              <mxPoint x="-280" y="-40" />
+            </Array>
+            <mxPoint x="-280" y="10" as="sourcePoint" />
+            <mxPoint x="-230" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLs334iBi6ZPpF-Xsne_-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;estados&lt;/div&gt;&lt;div&gt;1=validado&lt;/div&gt;&lt;div&gt;0=rechazado&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-370" y="-109.99999999999977" as="geometry" />
+        </mxCell>
+        <mxCell id="XLs334iBi6ZPpF-Xsne_-9" edge="1" parent="1" source="XLs334iBi6ZPpF-Xsne_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZBENz_Aeb2zxOY5-Enjz-1" value="fk_valorizacion=pk_valorizacion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XLs334iBi6ZPpF-Xsne_-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=30;spacingTop=30;spacingLeft=30;" value="&lt;div&gt;&lt;font style=&quot;color: rgb(0, 204, 204);&quot;&gt;TBL VALORIZACION DETALLE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 204, 204);&quot;&gt;pk_valorizacion_detalle&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(248, 206, 204);&quot;&gt;fk_valorizacion&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="260" x="60" y="-380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
